@@ -1,0 +1,202 @@
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+    background-color: #f5f5f5;
+}
+.head{
+    background-image: url('./Assets/Hero-bg.png');
+}
+.nav{
+   /* max-width: 1140px;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.logo{
+    color: #4e47ff;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.btn{
+    background-color: #4e47ff;
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;
+    cursor: pointer;
+}
+    
+.btn:hover{
+    background-color: midnightblue;
+}
+
+
+.tl{
+    font-size: 65px;
+    font-weight: 700;
+}
+.ban{ max-width: 905px 152px;
+
+    text-align: center;
+    padding: 309px 267.5px 152px;
+}
+.Action{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  align-items: center;
+  margin: 116px auto; 
+  padding: 0 150px;   
+}
+
+.cont{
+    font-size: 42px;
+    font-weight: 700;
+}
+.sub{
+    font-size: 24px;
+    color: #2524327F;
+}
+.image img {
+    
+    border-radius: 48px;
+}
+.prod{
+    text-align: center;
+    max-width: 1140px;
+    margin: 116px auto; 
+  background-color: #4E47FF1A;
+  padding: 50px 80px;
+  border-radius: 24px;
+
+
+}
+.prod2{
+    display: flex;
+    justify-content: space-between;
+}
+.prod-des{
+    font-size: 38px;
+    font-weight: bold;
+}
+.k{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4e47ff;
+
+}
+.au{
+    font-size: 20px;
+    color: #2524327F;
+}
+
+.cont{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    border-color: #F2EDED;
+    border-radius: 14px;
+    background-color: white;
+    padding: 24px 24px;
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.contact-left h1 {
+  font-size: 97px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Inter", sans-serif;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.contact-right label {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 15px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+}
+
+.contact-right textarea {
+  height: 120px;
+}
+
+.contact-right button {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #4e47ff;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-right button:hover {
+  background-color: midnightblue;
+  border: 1px solid midnightblue;
+}
+
+.footer {
+    width: 100%;
+    height: 428px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px 50px ;
+}
+.footer h1 {
+  font-family: "Inter", sans-serif;
+  color: #4E47FF;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 100px;
+}
+
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+.foot {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  color: #4E47FF;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background-color: white;
+}
